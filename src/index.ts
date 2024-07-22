@@ -2,6 +2,8 @@ import type { Caido } from "@caido/sdk-frontend";
 
 import type { PluginStorage } from "./types";
 
+import "./styles/script.css";
+
 const Page = "/my-plugin" as const;
 const Commands = {
   increment: "my-plugin.increment",
